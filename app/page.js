@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import PageBg from '../public/page1_bg.png'
 import { Icon } from '@iconify/react';
@@ -19,7 +20,7 @@ export default function Home() {
           </Stack>
 
           <Stack>
-            <p className='text-black font-mono font-4xl'>Makey</p>
+            <p className='text-black font-mono' style={{ fontSize:'20px',fontWeight:'bolder' }}>Makey</p>
           </Stack>
           <Stack direction='row' spacing={5} style={{ height: '100%', padding: '12px' }} alignItems="center">
           <Icon icon="material-symbols-light:search" />
