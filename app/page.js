@@ -20,20 +20,20 @@ export default function Home() {
           </Stack>
 
           <Stack>
-            <p className='text-black font-mono' style={{ fontSize:'20px',fontWeight:'bolder' }}>Makey</p>
+            <p className='text-black font-mono' style={{ fontSize:'24px',fontWeight:'900' }}>Makey</p>
           </Stack>
-          <Stack direction='row' spacing={2} alignItems="center" justifyContent='center' style={{ padding:'8px'}}>
+          <Stack direction='row' spacing={1} alignItems="center" justifyContent='center' style={{ padding:'8px'}}>
              <Stack direction='row' spacing={3} style={{ height: '100%', padding: '12px' }} alignItems="center">
           <Icon icon="iconamoon:search-thin" width={24} height={24}  alt="search" style={{ color:'black'}}/>
           <Icon icon="solar:heart-outline" width={24} height={24}  alt="search" style={{ color:'black'}}/>
           <Icon icon="tabler:basket" width={24} height={24}  alt="search" style={{ color:'black'}}/>
           </Stack>
-          <Stack direction='row' spacing={2}>
-            <div>
-            <p style={{ color:'black',padding:'8px',width:'82px',fontSize:'12px',fontWeight:'200'}}>Login</p>
-            </div>
-            <Stack alignItems="center" justifyContent='center'>
-  <p >Register</p>
+          <Stack direction='row' spacing={1}>
+         
+            <p style={{ color:'black',textAlign:'center',padding:'8px',width:'82px',fontSize:'12px',fontWeight:'200'}}>Login</p>
+           
+            <Stack alignItems="center" justifyContent='center' sx={{ color:'white',background:'black',borderRadius:'12px'}}>
+  <p style={{ color:'white',padding:'8px',textAlign:'center',width:'82px',fontSize:'12px',fontWeight:'200'}} >Register</p>
           
             </Stack>
           </Stack>
